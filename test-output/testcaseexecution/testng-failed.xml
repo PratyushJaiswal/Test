@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testcaseexecution]">
+  <test name="login(failed)">
+    <classes>
+      <class name="EntrustEnergy.login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openSite"/>
+        </methods>
+      </class> <!-- EntrustEnergy.login -->
+      <class name="EntrustEnergy.AddNewPartner">
+        <methods>
+          <include name="logIn"/>
+        </methods>
+      </class> <!-- EntrustEnergy.AddNewPartner -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [testcaseexecution] -->

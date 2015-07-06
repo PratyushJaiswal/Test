@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testcaseexecution">
+	<test name= "login">
+	<classes >
+		<class name="EntrustEnergy.login"/>
+		
+		<class name="EntrustEnergy.AddNewPartner"/>
+	</classes>
+	</test>
+</suite>

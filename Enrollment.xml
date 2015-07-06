@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Enrollment test">
+	<test name="testing enrollment navigation">
+		<classes >
+			<class name="EntrustEnergy.Enrollment"/>
+		</classes>	
+	
+	</test>
+</suite>
