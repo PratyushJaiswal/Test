@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.lang.reflect.Method;
 import java.util.Properties;
 
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.xml.DOMConfigurator;
 
 import config.ActionKeywords;
@@ -33,6 +34,7 @@ public class DriverScript {
 	}
 	
     public static void main(String[] args) throws Exception {
+    	BasicConfigurator.configure();
     	System.out.println("started");
     	ExcelUtils.setExcelFile(Constants.Path_TestData);
     	DOMConfigurator.configure("log4j.xml");
