@@ -18,7 +18,7 @@ public class login extends EntrustEnergy.OpenBrowser  {
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		String ActualTitle = driver.getTitle();
 		Assert.assertEquals(ActualTitle, "AIM Administrator :: Control Center");
-		
+		System.out.println("This is the comit line");
 		
 		
 	
