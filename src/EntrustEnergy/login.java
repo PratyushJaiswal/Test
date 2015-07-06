@@ -19,7 +19,7 @@ public class login extends EntrustEnergy.OpenBrowser  {
 		String ActualTitle = driver.getTitle();
 		Assert.assertEquals(ActualTitle, "AIM Administrator :: Control Center");
 		System.out.println("This is the comit line");
-		
+		System.out.println("this is raaes");
 		
 	
 		
