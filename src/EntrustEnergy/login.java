@@ -20,8 +20,8 @@ public class login extends EntrustEnergy.OpenBrowser  {
 		Assert.assertEquals(ActualTitle, "AIM Administrator :: Control Center");
 		System.out.println("This is the comit line");
 		System.out.println("this is raaes");
-		
-	
+		System.out.println("Second line from Raees");
+		System.out.println("3rd line from Raees");
 		
 	}
 
